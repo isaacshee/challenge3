@@ -1,0 +1,19 @@
+/*PUT CSS STYLING HERE FOR ALL COMPONENTS*/
+/*Styling taken from lecture*/
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 730px; 
+    }
+}
+.header {
+    margin-top: 30px; 
+    border-bottom: 1px solid #EEE; 
+}
+.header h2 {
+    margin-top: 0; 
+    line-height: 40px; 
+}
+#stage {
+    padding: 15px; 
+}

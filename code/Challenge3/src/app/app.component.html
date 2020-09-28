@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="header clearfix">
+        <nav role="navigation">
+            <ul class="nav nav-pills pull-right">
+            
+                <li><a routerLink="/home" routerLinkActive="active" (click)="setTitle('Home')">Home Page</a></li>
+                <li><a routerLink="/about" routerLinkActive="active" (click)="setTitle('About')">About Page</a></li>
+                <li><a routerLink="/contact" routerLinkActive="active" (click)="setTitle('Contact')">Contact Page</a></li>
+                
+            </ul>
+        </nav>
+        <h2 class="text-muted">History Navigation</h2>
+    </div>
+    <div id="stage"></div>
+</div>
+
+<router-outlet></router-outlet>
